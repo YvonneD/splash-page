@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>splash-page</title>
+    <link
+      rel="icon"
+      href="https://lh3.googleusercontent.com/ogw/ADGmqu-t4SjxY4Ie8AO20govlZr2aRd8b66T9sL48xyx=s32-c-mo"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--brand logo-->
+      <img src="./images/habitual-branding.png" alt="logo" class="brand-img" />
+      <!--bg toggle-->
+      <div class="background-toggles" title="change background">
+        <div class="background-1" onclick="changeBackground('1')"></div>
+        <div class="background-2" onclick="changeBackground('2')"></div>
+        <div class="background-3" onclick="changeBackground('3')"></div>
+      </div>
+      <!--title-->
+      <div class="text-container">
+        <h1 class="title">Find the stuff you’ll love.</h1>
+        <p class="text">
+          Aliquam rhoncus pretium dolor volutpat lectus odio non tellus neque.
+          Aliquet et purus nibh bibendum integer etiam in enim nisi.
+        </p>
+        <div class="app-store-btn">
+          <a href="https://apple.com" target="_blank">
+            <img src="./images/app-store-button.png" alt="apple store"
+          /></a>
+        </div>
+        <div class="google-play-btn">
+          <a href="https://play.google.com" target="_blank">
+            <img src="./images/google-play-button.png" alt="google play"
+          /></a>
+        </div>
+      </div>
+      <div class="main-image-container">
+        <img src="./images/main-image.png" alt="iphone" />
+      </div>
+      <img class="profile" src="./images/profile.png" alt="profile" />
+      <img class="order" src="./images/orders.png" alt="order" />
+      <img class="product" src="./images/product.png" alt="product" />
+      <img class="cart" src="./images/cart.png" alt="cart" />
+      <img class="home" src="./images/home.png" alt="home" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
